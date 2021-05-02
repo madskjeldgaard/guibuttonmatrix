@@ -1,0 +1,11 @@
+(
+  name: "GuiButtonMatrix",
+  summary: "A gui button matrix",
+  version: "0.001",
+  schelp: "GuiButtonMatrix.schelp",
+  dependencies: ,
+  license: "GNU GPL v3.0",
+  copyright: "madskjeldgaard",
+  ext_dependency: "",
+  url: "https://github.com/madskjeldgaard/guibuttonmatrix"
+)
