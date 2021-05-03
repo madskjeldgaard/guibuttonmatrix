@@ -21,7 +21,8 @@ GuiButtonMatrix {
 
 				StaticText.new(bounds: rect)
 				.string_(colText)
-				// .align_(\center)
+				.font_(Font.sansSerif.bold_(true))
+				.align_(\center)
 			};
 
 		rows = numRows.collect{|rowNum|
@@ -43,6 +44,7 @@ GuiButtonMatrix {
 		layout = GridLayout.rows(columnLabels, *rows.collect{|row, rowIndex| 
 			var labelText = rowLabels[rowIndex] ? "Row %".format(rowIndex.asString);
 			var label =  StaticText.new()
+			.font_(Font.sansSerif.bold_(true))
 			.string_(
 				labelText
 			);
